@@ -88,14 +88,15 @@ const Projects = () => {
     },
     {
       title: "Otter Half",
-      role: "Developer + Storyboarding",
-      tags: ["Unity", "Canva"],
-      inProgress: false,
-      description: "blah",
-      github: "https://github.com/hannahtrng/Otter-Half",
-      drive: "",
-      details: "blah"
-    }
+      role: "Lead Gameplay Developer",
+      tags: ["Unity", "C#", "Game Design"],
+      inProgress: false, 
+      description: "A creature-collection adventure game inspired by Pokémon, featuring complex cave navigation and intelligent enemy behavior.",
+      github: "https://github.com/hannahtrng/Otter-Half", 
+      drive: "#",  
+      details: "Engineered enemy AI detection and trigger systems to enhance combat engagement. Developed player movement and navigation for intricate cave systems while leading a team of 5 through weekly sprints and scene management."
+    },
+    
   ];
 
   return (
