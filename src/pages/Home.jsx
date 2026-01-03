@@ -53,8 +53,13 @@ const Home = () => {
         };
 
         const handleScroll = () => {
+            const currentScroll = window.scrollY;
             const top = window.scrollY < 10;
             setIsAtTop(top);
+            if (top && !isLocked) {
+                setIsLocked(true);
+                setCanZoom(true);
+            }
             if (!top) lastScrollTime.current = Date.now();
         };
 
@@ -71,23 +76,39 @@ const Home = () => {
             
 
             <section id="hero" className="w-full h-screen sticky top-0 z-0">
-                <div className={`fixed top-14 w-full z-10 flex justify-center transition-opacity duration-1000 
-                    ${isAtTop && isFullyZoomedOut ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+                <div className={`fixed inset-x-0 z-10 flex justify-center transition-opacity duration-1000 
+                    ${isAtTop && isFullyZoomedOut ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+                    style={{ top: 'var(--nav-height, 95px)' }}>
                     <h1 className="text-6xl md:text-8xl text-[#f3b0d4] tracking-widest uppercase ">
                         Michelle Bai
                     </h1>
                 </div>
 
-                <div className={`fixed left-1/2 -translate-x-1/2 bottom-12 z-50 transition-all duration-700 
+                <div 
+                    onClick={() => {
+                        // 1. Unlock the scroll first
+                        setIsLocked(false);
+                        setCanZoom(false);
+                        
+                        // 2. Scroll to the About section
+                        const aboutSection = document.getElementById('about');
+                        if (aboutSection) {
+                            aboutSection.scrollIntoView({ behavior: 'smooth' });
+                        }
+                    }}
+                    className={`fixed left-1/2 -translate-x-1/2 bottom-12 z-50 transition-all duration-700 
                     ${isAtTop && isFullyZoomedOut ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 pointer-events-none'}`}>
                     <div className="bg-pink-100/40 backdrop-blur-md px-6 py-3 rounded-full shadow-lg border border-pink-200/50 animate-bounce">
                         <p className="text-pink-600  text-2xl">
-                            {showExploreHint ? "Scroll down for more! ↓" : "Scroll Up to Zoom & Spin 🖱️"}
+                            {showExploreHint ? "Click here for more! ↓" : "Scroll Up to Zoom & Spin 🖱️"}
                         </p>
                     </div>
                 </div>
 
-                <Canvas className="w-full h-screen bg-transparent" camera={{ position: [0, 3, 10], fov: 45 }}>
+                <Canvas 
+                    className="w-full h-screen bg-transparent" 
+                    camera={{ position: [0, 3, 10], fov: 45 }} 
+                    style={{ touchAction: isLocked ? 'none' : 'auto' }}>
                     <Suspense fallback={<Loader />}>
                         <directionalLight position={[1, 1, 1]} intensity={2} />
                         <ambientLight intensity={0.5} />

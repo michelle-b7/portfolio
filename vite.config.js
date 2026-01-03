@@ -13,5 +13,5 @@ export default defineConfig({
     tailwindcss(),
   ],
   assetsInclude: ['**/*.glb'],
-  base: '/michelle-portfolio/'
+  base: '/portfolio/'
 })

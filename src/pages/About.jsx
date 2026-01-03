@@ -60,7 +60,10 @@ const About = () => {
               I'm a CS Major at UCLA Samueli with a focus on AI and Data Science. I love tramsforming ideas into tangible & interactive experiences via React!
             </p>
             <p>
-              Recent quests: UI/UX at ZEKI and PM at ACM Cloud. I have been so fortunate to have had these role as a chance to level up my coding and skills.
+              In my free time, I love to travel, try new foods, karaoke, snowboard, and photography :)
+            </p>
+            <p>
+              Recent quests: UI/UX at ZEKI and PM at ACM Cloud. I have been so fortunate to have had these opportunities to level up my coding and skills and progress my career.
             </p>
           </div>
 

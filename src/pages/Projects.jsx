@@ -19,7 +19,7 @@ const Projects = () => {
     },
     {
       title: "Spotify Notes",
-      role: "Project Manager & Full-stack Developer",
+      role: "Project Manager",
       tags: ["React Vite", "Spotify API", "Scrum"],
       inProgress: true,
       description: "A full-stack web application developed using Scrum methodologies that allows users to attach and share notes on Spotify songs.",
