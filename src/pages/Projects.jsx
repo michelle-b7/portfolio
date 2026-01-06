@@ -36,7 +36,7 @@ const Projects = () => {
       description: "Analyzed an email marketing database to identify key drivers of subscriber churn.",
       github: "",
       drive: "#",
-      details: "Developed interactive Tableau and Power BI dashboards to translate raw data into audience retention strategies."
+      details: "Developed interactive Tableau and Power BI dashboards to translate raw data into audience retention strategies. Power BI process still in progress"
     },
     {
       title: "HYEL Mobile Game",
@@ -56,9 +56,8 @@ const Projects = () => {
       inProgress: false,
       description: "Researched AI's role in neuro-prosthetic spinal cord stimulation and neurological injury restoration.",
       github: "",
-      drive: "#",
-      details: "Utilized R, Tableau, and Excel to scrape data, identify research gaps, and visualize results for a group of 12 researchers.",
-      customMessage: "⊹ looking through archival player log ⊹"
+      drive: "https://drive.google.com/file/d/1s_5AsrhkINyDAB_-xuOmg8BW5YMgcHZa/view?usp=sharing",
+      details: "Utilized R, Tableau, and Excel to scrape data, identify research gaps, and visualize results for a group of 12 researchers."
     },
     
     
