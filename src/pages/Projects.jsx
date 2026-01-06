@@ -36,7 +36,7 @@ const Projects = () => {
       description: "Analyzed an email marketing database to identify key drivers of subscriber churn.",
       github: "",
       drive: "#",
-      details: "Developed interactive Tableau and Power BI dashboards to translate raw data into audience retention strategies. Power BI process still in progress"
+      details: "Developed interactive Tableau and Power BI dashboards to translate raw data into audience retention strategies. Power BI process still in progress."
     },
     {
       title: "HYEL Mobile Game",
