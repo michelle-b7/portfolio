@@ -2,9 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/portfolio/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>michelle's portfolio ♡</title>
+    <script type="text/javascript">
+      (function(l) {
+        var decoded = l.search.slice(1).split('&').map(function(s) {
+          return s.replace(/~and~/gg, '&')
+
+        }).join('?');
+        window.history.replaceState(null, null, l.pathname.slice(0,-1) + decoded + l.hash);
+      }(window.location))
+    </script>
+  
     <script type="module" crossorigin src="/portfolio/assets/index-Ctqz7APq.js"></script>
     <link rel="stylesheet" crossorigin href="/portfolio/assets/index-CFMPlMTm.css">
   </head>
