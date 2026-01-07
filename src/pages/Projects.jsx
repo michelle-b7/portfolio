@@ -118,7 +118,7 @@ const Projects = () => {
         </div>
       </a>
 
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-6xl md:text-8xl text-pink-400 leading-none">
             MY QUESTS

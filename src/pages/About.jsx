@@ -57,10 +57,10 @@ const About = () => {
           
           <div className=" text-xl md:text-2xl text-gray-500 leading-snug space-y-4">
             <p>
-              I'm a CS Major at UCLA Samueli with a focus on AI and Data Science. I love tramsforming ideas into tangible & interactive experiences via React!
+              I'm a Computer Science Major at UCLA Samueli with a focus on Data Science and Tech Management. I love transforming ideas into tangible & interactive experiences via React!
             </p>
             <p>
-              In my free time, I love to travel, try new foods, karaoke, snowboard, and capture some sick shots :)
+              In my free time, I love to travel, try new foods, karaoke, snowboard, and capture some sick shots on my Nikon or Dji :)
             </p>
             <p>
               Recent quests: UI/UX at ZEKI and PM at ACM Cloud. I have been so fortunate to have had these opportunities to level up my coding and skills and progress my career.
