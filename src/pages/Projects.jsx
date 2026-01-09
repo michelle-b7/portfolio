@@ -3,10 +3,20 @@ import React, { useState } from 'react';
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
-  // Update your Drive link here!
   const resumeLink = "https://drive.google.com/drive/folders/1lK8R4rUkW13xJqYgMzPobLs0cm0YScgT?usp=sharing";
 
   const projectList = [
+    {
+      title: "This Portfolio Website :)",
+      role: "Front-End Developer",
+      tags: ["React + Vite", "ThreeJS", "TailwindCSS"],
+      inProgress: false, 
+      description: "Yes! One of my favorite projects. Showcasing my resume in an interactive format while simultaneously showing some of my skills",
+      github: "#",
+      drive: "#",
+      details: "Automated CI/CD workflow and optimized image loading for better performance on both desktop and mobile!",
+      customMessage: "⊹ How do you like it? ⊹"
+    },
     {
       title: "MealStash App",
       role: "Full-stack Developer",
