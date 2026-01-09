@@ -1,4 +1,4 @@
-import michelle_photo from '../assets/michelle_flower.jpg';
+import michelle_photo from '../assets/pretty_michelle.JPG';
 
 const About = () => {
   return (

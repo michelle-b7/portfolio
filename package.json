@@ -42,12 +42,12 @@
   "main": "eslint.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michelle-b7/michelle-portfolio.git"
+    "url": "git+https://github.com/michelle-b7/portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/michelle-b7/michelle-portfolio/issues"
+    "url": "https://github.com/michelle-b7/portfolio/issues"
   }
 }
