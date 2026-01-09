@@ -1,7 +1,6 @@
 import {NavLink, useLocation} from "react-router-dom";
 
 const Navbar = () => {
-  const location = useLocation();
 
   const navLinkStyles = (isActive) => 
     `px-8 py-3 rounded-full border transition-all duration-300 backdrop-blur-md font-vt323 text-3xl 
