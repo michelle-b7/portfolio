@@ -115,13 +115,13 @@ const Contact = () => {
 
             <div className="mt-12 mb-8 text-center">
                 <p className="text-gray-400 text-2xl tracking-wide">
-                    Or reach out directly via the{" "}
+                    Or reach out directly via {" "}
                     <span className="text-pink-400 font-bold ">
-                        LinkedIn
+                        clickable
                     </span>
                     {" "} 
                     <span className=" font-bold ">
-                         sticker
+                         stickers
                     </span>{" "} on the{" "} 
                     <span className="text-pink-400 font-bold ">
                         interactive PC
