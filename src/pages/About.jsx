@@ -4,12 +4,12 @@ const About = () => {
   return (
     <div className="w-full py-12 px-4 sm:px-8 md:px-12 flex justify-center">
       {/* Card */}
-      <div className="max-w-6xl w-full bg-white/80 backdrop-blur-md rounded-50px border-4 border-pink-100 p-8 md:p-12 flex flex-col md:flex-row items-center gap-10 shadow-xl overflow-hidden">
+      <div className="max-w-6xl w-full bg-white/80 backdrop-blur-md rounded-[50px] border-4 border-pink-100 p-8 md:p-12 flex flex-col md:flex-row items-center gap-10 shadow-xl overflow-hidden">
         
         {/* left */}
         <div className="w-full md:w-1/2 flex flex-col items-center">
           <div className="relative mb-8">
-            <div className="w-56 h-56 sm:w-72 sm:h-72 bg-pink-50 rounded-40px border-4px border-pink-300 overflow-hidden shadow-md">
+            <div className="w-56 h-56 sm:w-72 sm:h-72 bg-pink-50 rounded-[40px] border-4px border-pink-300 overflow-hidden shadow-md">
               <img src={michelle_photo} alt="Michelle Bai" className="w-full h-full object-cover" />
             </div>
             <div className="absolute -bottom-4 -right-2 bg-pink-400 text-white  text-xl px-4 py-1 rounded-full rotate-3 shadow-md whitespace-nowrap">
