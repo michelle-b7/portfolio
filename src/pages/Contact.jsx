@@ -37,12 +37,12 @@ const Contact = () => {
                             QUEST COMPLETE! ₊ ⊹
                             </h3>
                         <p className="text-2xl text-pink-400 italic">
-                            Thank you for reaching out! Michelle will be in touch soon. ❀
+                            Thank you for reaching out! I will be in touch soon. ❀
                             </p>
                         <button 
                             onClick={() => window.location.reload()} 
                             className="mt-6 text-pink-400 border-b border-pink-400 text-xl hover:text-pink-600 transition-colors">
-                            Send another message?
+                            Want to send me another message?
                         </button>
                     </div>
                 ) : (
