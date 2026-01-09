@@ -30,12 +30,13 @@ const Home = () => {
 
 
     useEffect(() => {
+        let interval;
         if (isAtTop) {
-            const interval = setInterval(() => setShowExploreHint(prev => !prev), 2500);
-            return () => clearInterval(interval);
-        } else if (showExploreHint){
-            setShowExploreHint(false);
+            interval = setInterval(() => setShowExploreHint(true), 3000);
+        } else {
+            setShowExploreHint((prev) => (prev ? false : prev));
         }
+        return () => clearInterval(interval);
     }, [isAtTop]);
 
     const handleManualUnlock = (e) => {
