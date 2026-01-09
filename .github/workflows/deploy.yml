@@ -2,7 +2,7 @@ name: Lint and Deploy
 
 on:
   push:
-    branches: [ "main" ] 
+    branches: [ "main" ]
 
 jobs:
   build-and-deploy:
@@ -13,18 +13,22 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4  
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
 
       - name: Install Dependencies
         run: npm install
 
       - name: Run Linter
-        run: npx eslint . 
+        run: npm run lint
+
+      - name: Build Project
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: . 
+          folder: dist
           branch: gh-pages
