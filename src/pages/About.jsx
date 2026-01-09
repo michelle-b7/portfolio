@@ -50,7 +50,7 @@ const About = () => {
         <div className="w-full md:w-1/2 text-center md:text-left space-y-6">
           <div className="inline-block">
             <h2 className="text-6xl md:text-8xl  text-pink-400/70 leading-none">
-                I'M <span className="text-pink-400">MICHELLE</span>!
+                I&aposM <span className="text-pink-400">MICHELLE</span>!
             </h2>
             <div className="text-pink-300 text-2xl lg:text-3xl leading-none mt-2 flex justify-center md:justify-start">₊ ⊹ ₊ ⊹ ₊ ⊹ ₊ ⊹</div>
           </div>

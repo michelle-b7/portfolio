@@ -33,7 +33,7 @@ const Home = () => {
         if (isAtTop) {
             const interval = setInterval(() => setShowExploreHint(prev => !prev), 2500);
             return () => clearInterval(interval);
-        } else {
+        } else if (showExploreHint){
             setShowExploreHint(false);
         }
     }, [isAtTop]);

@@ -6,7 +6,7 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 import { defineConfig, globalIgnores } from 'eslint/config'
 
 export default defineConfig([
-  globalIgnores(['dist', 'node_modules', 'public']), // Added more common ignores
+  globalIgnores(['dist', 'node_modules', 'public']), 
   {
     files: ['**/*.{js,jsx}'],
     plugins: {
@@ -32,15 +32,15 @@ export default defineConfig([
       ...react.configs['jsx-runtime'].rules,
       ...reactHooks.configs.recommended.rules,
       
-      // Keep your custom rule but allow common React/Three.js patterns
+      'react/no-unknown-property': ['error', { ignore: ['args', 'rotation', 'position', 'scale', 'geometry', 'material', 'castShadow', 'receiveShadow', 'intensity', 'map', 'transparent', 'polygonOffset', 'polygonOffsetFactor', 'emissive', 'emissiveIntensity', 'skeleton', 'object'] }],
+
       'no-unused-vars': ['warn', { varsIgnorePattern: '^[A-Z_]' }], 
       
-      // Essential for Vite HMR (Hot Module Replacement)
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
       ],
-      'react/prop-types': 'off', // Often preferred for 3D props passing
+      'react/prop-types': 'off', 
     },
     settings: {
       react: { version: '18.2' }
