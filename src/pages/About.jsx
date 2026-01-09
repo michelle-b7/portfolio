@@ -1,6 +1,5 @@
 import michelle_photo from '../assets/michelle_flower.jpg';
 
-
 const About = () => {
   return (
     <div className="w-full py-12 px-4 sm:px-8 md:px-12 flex justify-center">
