@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);

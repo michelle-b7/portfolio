@@ -1,8 +1,6 @@
-import React from 'react';
 import {useForm, ValidationError} from '@formspree/react';
 
 const Contact = () => {
-    // This hook manages the loading and success states for you!
     const [state, handleSubmit] = useForm("xdakgzvd");
 
     return (
@@ -28,7 +26,7 @@ const Contact = () => {
                 Contact Me!
             </h2>
 
-            {/* Glass Card Container */}
+            
             <div className="w-full max-w-2xl bg-white/40 backdrop-blur-lg border border-pink-200/50 p-8 rounded-[30px] shadow-xl">
                 
                 {state.succeeded ? (
