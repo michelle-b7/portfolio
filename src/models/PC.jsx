@@ -1,7 +1,7 @@
 import React, {useRef, useState} from 'react'
 import {useGLTF, useTexture, Decal, Html} from '@react-three/drei'
 import {a} from '@react-spring/three' 
-import PCscene from '../assets/pc.glb'
+import PCscene from '../assets/pc-optimized.glb'
 import myCustomShell from '../assets/edited_pc_mesh.png'
 
 

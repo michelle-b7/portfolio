@@ -1,11 +1,12 @@
 import {Canvas} from '@react-three/fiber'
-import {Suspense, useEffect, useState, useRef} from 'react'
+import {Suspense, useEffect, useState, useRef, lazy} from 'react'
 import Loader from '../components/Loader'
 import {PC} from '../models/PC'
 import {OrbitControls} from '@react-three/drei'
 import Lenis from '@studio-freight/lenis'
-import About from '../pages/About';
-import Contact from './Contact'
+
+const About = lazy(() => import('../pages/About'));
+const Contact = lazy(() => import('./Contact'));
 
 const Home = () => {
     const controlsRef = useRef();
