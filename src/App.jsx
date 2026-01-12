@@ -5,7 +5,7 @@ import {Home, Projects} from './pages'
 const App = () => {
   return(
     <main className="bg-slate-300/20">
-      <Router basename="/portfolio/">
+      <Router basename="/portfolio">
         <Navbar/>
         
             <Routes>
