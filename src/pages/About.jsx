@@ -1,4 +1,4 @@
-import michelle_photo from '../assets/pretty_michelle.JPG';
+import michelle_photo from '../assets/pretty_michelle.webp';
 
 const About = () => {
   return (

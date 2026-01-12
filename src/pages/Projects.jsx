@@ -45,7 +45,12 @@ const Projects = () => {
       inProgress: true,
       description: "Analyzed an email marketing database to identify key drivers of subscriber churn.",
       github: "",
-      drive: "#",
+      drive: "",
+      additionalLinks: [
+        { label: "RETENTION ANALYSIS", url: "https://public.tableau.com/views/Email_Marketing_Project/EmailMarketingTacticsRetentionAnalysisChurnRates?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" },
+        { label: "CAMPAIGN PERFORMANCE", url: "https://public.tableau.com/views/Email_Marketing_Project_1/FactorsAffectingCampaignPerformanceandUnsubscribes?:language=en-US&:sid=&:redirect=auth&publish=yes&showOnboarding=true&:display_count=n&:origin=viz_share_link" },
+        { label: "GOOGLE COLLAB NOTEBOOK", url: "https://colab.research.google.com/drive/1mhdwNTwaHzZLoCvDHMzGlWP6pfy8Sn2-?usp=sharing" } 
+      ],
       details: "Developed interactive Tableau and Power BI dashboards to translate raw data into audience retention strategies. Power BI process still in progress."
     },
     {
