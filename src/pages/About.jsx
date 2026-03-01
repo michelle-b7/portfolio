@@ -17,7 +17,7 @@ const About = () => {
               </div>
           </div>
 
-          <div className="w-full max-w-sm bg-white p-6 rounded-30px border-2 border-pink-100  shadow-sm">
+          <div className="w-full max-w-sm bg-white p-6 rounded-[30px] border-2 border-pink-100  shadow-sm">
             <h3 className="text-pink-400 text-3xl text-center uppercase mb-1">
                 Personalized Stats
                 </h3>
@@ -67,7 +67,7 @@ const About = () => {
           </div>
 
           <div className="flex flex-wrap justify-center md:justify-start gap-2">
-            {['SWE Intern', 'PM @ ACM', 'UCLA Engineer', 'AI Explorer'].map((tag) => (
+            {['SWE Intern', 'PM @ ACM', 'UCLA Engineer', 'ACM AI Mini ML Hackathon Winner'].map((tag) => (
               <span key={tag} className="bg-pink-50 text-pink-400  text-lg px-4 py-1 rounded-full border border-pink-200">⊹ {tag}</span>
             ))}
           </div>

@@ -65,6 +65,20 @@ const Projects = () => {
       customMessage: "⊹ code + designs handed over to company ⊹"
     },
     {
+      title: "ACM AI Mini ML Hackathon",
+      role: "First Place Winner",
+      tags: ["First Place!", "Machine Learning", "Kaggle"],
+      inProgress: false,
+      description: "Built model and trained program that predicts characteristics from given images",
+      github: "",
+      drive: "",
+      additionalLinks: [
+        { label: "KAGGLE NOTEBOOK", url: "https://www.kaggle.com/code/michellebai1/mini-ml-2026-starter-notebook" }
+      ],
+      details: "Built prediction model that identifies Star Wars character allegiance trained on image dataset. Won first place.",
+      
+    },    
+    {
       title: "ThinkNeuro Research",
       role: "Assistant Associate Researcher",
       tags: ["R", "Tableau", "Data Visualization"],
