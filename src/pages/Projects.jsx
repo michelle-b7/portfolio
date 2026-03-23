@@ -64,6 +64,7 @@ const Projects = () => {
       details: "Iterated on gameplay, testing, and debugging to create a professional product for real users.",
       customMessage: "⊹ code + designs handed over to company ⊹"
     },
+    
     {
       title: "ACM AI Mini ML Hackathon",
       role: "First Place Winner",
@@ -77,7 +78,17 @@ const Projects = () => {
       ],
       details: "Built prediction model that identifies Star Wars character allegiance trained on image dataset. Won first place achieving 97% accuracy.",
       
-    },    
+    },   
+    {
+      title: "ACM Hack HOTH Hackathon",
+      role: "Team Project",
+      tags: ["Agentic AI", "Gemini API", "Google Calendar"],
+      inProgress: false, 
+      description: "Engineered an Agentic AI calendar assistant to automate event scheduling by securely parsing data from Gmail and external documents.",
+      github: "#",
+      drive: "#",
+      details: "Streamlined scheduling workflows by replacing manual data entry with an agentic pipeline to Google Calendar, significantly reducing user interaction time.",
+    }, 
     {
       title: "ThinkNeuro Research",
       role: "Assistant Associate Researcher",
