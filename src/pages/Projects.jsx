@@ -25,7 +25,7 @@ const Projects = () => {
       description: "Building a full-stack mobile app that generates personalized recipes using JSON-based prompt engineering.",
       github: "#",
       drive: "#",
-      details: "Implemented Firebase for personalized user data persistence and used the Google Gemini API for dynamic recipe generation."
+      details: "Implemented Firebase for personalized user data persistence and used the Google Gemini API for dynamic recipe generation. Developed with Claude for efficient full-stack logic."
     },
     {
       title: "Spotify Notes",
@@ -67,7 +67,7 @@ const Projects = () => {
     {
       title: "ACM AI Mini ML Hackathon",
       role: "First Place Winner",
-      tags: ["First Place!", "Machine Learning", "Kaggle"],
+      tags: ["First Place!", "Machine Learning", "Regression"],
       inProgress: false,
       description: "Built model and trained program that predicts characteristics from given images",
       github: "",
@@ -75,7 +75,7 @@ const Projects = () => {
       additionalLinks: [
         { label: "KAGGLE NOTEBOOK", url: "https://www.kaggle.com/code/michellebai1/mini-ml-2026-starter-notebook" }
       ],
-      details: "Built prediction model that identifies Star Wars character allegiance trained on image dataset. Won first place.",
+      details: "Built prediction model that identifies Star Wars character allegiance trained on image dataset. Won first place achieving 97% accuracy.",
       
     },    
     {
@@ -103,6 +103,16 @@ const Projects = () => {
         { label: "EVENT RSVP FORM", url: "https://forms.gle/dSBVS5qCA75dqx5X7" } 
       ],
       details: "Designed event flyers, forms, and social media posts to promote event marketing among the UCLA student body."
+    },
+    {
+      title: "ACM TeachLA Curriculum",
+      role: "Curriculum Intern",
+      tags: ["React", "Education", "K-12"],
+      inProgress: false,
+      description: "Creating inclusive and interactive React curriculum to make CS concepts accessible.", 
+      github: "",
+      drive: "",
+      details: "Refined and developed React-based materials to make complex computer science topics digestible for K-12 students." 
     },
     {
       title: "Campus Cruizin",
